@@ -218,5 +218,7 @@ __marimo__/
 # created per user
 .DS_Store
 .vscode/
+*.json
+
+# Ignore all contents inside the music folder
 music/
-lofi.json/
