@@ -5,9 +5,6 @@ requirements:
 - curses
 - music folder must be in cwd and named "music"
 
-TODO:
-- add playlist functionality or something similar
-
 Author: SketchyRock
 Date: 1/4/2026
 """
@@ -390,7 +387,7 @@ def main(stdscr):
 
 
 if __name__ == "__main__":
-    if "-debug" in sys.argv:
+    if "debug" in sys.argv:
         from pprint import pprint
 
         print("'pprint' imported")
