@@ -1,5 +1,5 @@
-# mp3-player
-> A terminal MP3 player for focused lofi sessions, written in Python.
+# terminal-music-player
+> A terminal music player for focused lofi sessions, written in Python.
 
 This project is a lightweight music player that plays the MP3 files in a local folder you choose, providing a distraction-free listening experience.
 
