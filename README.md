@@ -1,13 +1,13 @@
-# lofi-player
-> A simple Python-based MP3 player designed for focused lofi sessions.
+# mp3-player
+> A terminal MP3 player for focused lofi sessions, written in Python.
 
-This project is a lightweight music player that automatically loads and plays audio files from a local directory, providing a distraction-free listening experience.
+This project is a lightweight music player that plays the MP3 files in a local folder you choose, providing a distraction-free listening experience.
 
 ---
 
 ## Features:
 
-* **Auto-Loading**: Scans the music/ folder automatically for MP3 files.
+* **Folder-based**: Point it at a folder and it plays the MP3 files inside.
 
 * **Minimalist**: A lightweight terminal-based player.
 
@@ -20,8 +20,8 @@ This project is a lightweight music player that automatically loads and plays au
 ### 1. Prerequisites
 
 * Python 3.13+
-* `curses`
-* `pygame`
+* `pygame` (installed by `requirements.txt`)
+* `curses`, which ships with Python on macOS and Linux. On Windows, `requirements.txt` installs `windows-curses`.
 
 ### 2. Installation
 ```bash
@@ -30,7 +30,7 @@ python3 -m pip install -r requirements.txt
 
 ### 2. Music Configuration
 
-For the program to find your music, you must point to the directory where mp3's are stored once the program is launched in order for them to be played.
+The first time you run it, the player asks for the path to your music folder. It only plays files from that folder.
 
 ---
 
@@ -38,7 +38,7 @@ For the program to find your music, you must point to the directory where mp3's 
 
 Navigate to the project folder and run the script:
 ```bash
-python3 lofi.py
+python3 main.py
 ```
 
 ---
